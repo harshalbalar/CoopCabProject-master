@@ -1,14 +1,13 @@
 import './App.css';
 import DriverAgent from './components/DriverAgent';
-
+import CustomerAgent from './components/customerAgent';
 
 function App() {
     return (
         <div className="App">
-          <h1>
-            hello
-          </h1>
-          <DriverAgent />
+          
+          {/* <DriverAgent /> */}
+          <CustomerAgent/>
          </div>
       );
 }
